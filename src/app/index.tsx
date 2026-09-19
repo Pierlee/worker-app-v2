@@ -6,7 +6,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <Text style={styles.title}>Worker App V2</Text>
-        <Text style={styles.subtitle}>Foundation ready.</Text>
+        <Text className="mt-2 text-base text-blue-500">Foundation ready.</Text>
       </View>
     </SafeAreaView>
   );
@@ -27,10 +27,5 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 32,
     fontWeight: '700',
-  },
-  subtitle: {
-    color: '#94A3B8',
-    fontSize: 16,
-    marginTop: 8,
   },
 });
